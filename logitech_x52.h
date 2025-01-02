@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 typedef struct __attribute__((packed)) {
-    uint16_t x:11;      // 0..1024..2047
-    uint16_t y:11;      // 0..1024..2047
-    uint16_t twist:10;  // 0..512..1023
+    uint32_t x:11;      // 0..1024..2047
+    uint32_t y:11;      // 0..1024..2047
+    uint32_t twist:10;  // 0..512..1023
     uint8_t throttle;
     uint8_t throttle_small_rotary;
     uint8_t throttle_large_rotary;

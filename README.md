@@ -71,3 +71,7 @@ The following are the options that must be changed.
 * Set "USB Stack" to "Adafruit TinyUSB".
 
 ![Screen shot of Arduino IDE options for this project](./images/options.jpg)
+
+## How to Decode USB HID
+
+[The details](./decoding_x52.md) on how to decode USB HID for the X52.
